@@ -120,6 +120,7 @@
 | id          | integer           |                          | NO          | PRIMARY KEY    | payment_pkey    |
 | to_id       | integer           |                          | NO          | null            |                 |
 | from_id     | integer           |                          | NO          | null            |                 |
+| hash        | text              |                          | YES         | null            |                 |
 
 ### Table: service
 
