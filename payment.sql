@@ -8,5 +8,6 @@ CREATE TABLE payment (
     from_name VARCHAR(255) NOT NULL,
     ngo_id INTEGER NOT NULL,
     to_id INTEGER NOT NULL,
-    from_id INTEGER NOT NULL
+    from_id INTEGER NOT NULL,
+    hash TEXT
 );
