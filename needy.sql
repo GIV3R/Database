@@ -7,6 +7,7 @@ CREATE TABLE needy (
     age INTEGER NOT NULL,
     ngo INTEGER,
     username VARCHAR(25) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
     status VARCHAR(50) NOT NULL,
     lastname VARCHAR(255),
     city VARCHAR(255) NOT NULL,
